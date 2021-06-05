@@ -11,6 +11,7 @@
         -->
     <script type="text/javascript" src="matrix.js"></script>
     <script type="text/javascript" src="sudoku.js"></script>
+    <script type="text/javascript" src="animation.js"></script>
     <!-- CSS Stylesheets
     <link rel="stylesheet" href="filename.css" />
         -->
@@ -30,9 +31,11 @@
     <title>Sudoku</title>
 </head>
 <body>
-   
+   <div class="button-holder">
+       <button id="current" onclick="alterAnimation()">Animation: OFF</button>
+   </div>
     
-    <main>
+    <main id="main">
         <div id="GameGrid" class="numberGrid">
             
 

@@ -22,10 +22,12 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    -webkit-animation: rainbow 120s ease infinite;
     background-size: 300% 300%;
     background-image: url(clouds.jpg);
 }
+
+.animate {
+    -webkit-animation: rainbow 120s ease infinite;
 }
 
 .numberGrid {
